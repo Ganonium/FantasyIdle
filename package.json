@@ -1,0 +1,9 @@
+{
+  "name": "fantasyidle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "balance": "node tools/balance.mjs 5"
+  }
+}

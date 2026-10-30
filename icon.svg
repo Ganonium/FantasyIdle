@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.35" r="0.75"><stop offset="0" stop-color="#2c4535"/><stop offset="1" stop-color="#0f1913"/></radialGradient>
+    <radialGradient id="fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffd27a"/><stop offset="0.5" stop-color="#f08a4b" stop-opacity="0.7"/><stop offset="1" stop-color="#f08a4b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <circle cx="256" cy="300" r="170" fill="url(#fire)" opacity="0.55"/>
+  <!-- Amboss -->
+  <path d="M120 250 h250 q30 0 50 -26 q-8 52 -70 60 l-30 0 l0 30 q0 20 30 34 l20 10 v24 h-230 v-24 l20 -10 q30 -14 30 -34 v-30 h-40 q-30 0 -30 -34Z" fill="#c9b27a" stroke="#5a4520" stroke-width="10" stroke-linejoin="round"/>
+  <!-- Schwert -->
+  <g transform="rotate(-35 256 200)">
+    <rect x="246" y="40" width="20" height="170" rx="4" fill="#e9eef7" stroke="#3b4350" stroke-width="6"/>
+    <rect x="206" y="200" width="100" height="18" rx="6" fill="#e9c46a" stroke="#5a4520" stroke-width="6"/>
+    <rect x="248" y="216" width="16" height="44" rx="4" fill="#7a3b2c" stroke="#3a1a10" stroke-width="5"/>
+    <circle cx="256" cy="268" r="12" fill="#e9c46a" stroke="#5a4520" stroke-width="5"/>
+  </g>
+</svg>
